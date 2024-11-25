@@ -26,51 +26,27 @@
 * Exited - Whether a customer has left the bank or not (response variable)
 
 ### Report structure
-#### Data set overview
- 
- a. Exploring shape of data
-	
- b. Checking for class imbalance in data
-
-#### Data cleaning and transformation
-	
- a. Renaming columns for ease of use + relevance
-	
- b. Identifying and dropping duplicates
-	
- c. Identifying and dropping NA values
-
-#### Exploratory data analysis (EDA)
-	
- a. Descriptive statistical analysis (numerical variables)
-	
- b. Checking numerical var distribution (histograms) (checking for normality assumption needed in hypothesis testing)
-	
- c. Hypothesis testing
-		
-  i. Difference in means test to verify validity of a "generalized conclusion" on impact of EstimatedSalary on churn rate
-		
-  ii. Chi-square hypothesis test to verify validity of a "generalized conclusion" on impact of CountryofOrigin on churn rate
-	
- d. Feature engineering
-	
-  i. One-hot encoding for to create dummy var for the categorical var
-	
-  ii. Creating bins for the numerical variables to better interpretation of var by the model
-	
-  iii. Standardizing Tenure var
-
-#### Model building
-
- a. Creating train and test data set
-	
- b. Fitting Logistic Regression, Random Forest 1, Random Forest 2, and LightGBM model (Random Forest 1 & 2 are both RF models with different hyperparameter values)
-
-#### Evaluation and Model selection
-
- a. Utilizing ROC-AUC, accuracy, precision, and recall metrics to evaluate models
-
- b. Utilizing cross validation to calculate mean evaluation metric values for each model and subsequently determine best model
-
- c. Plotting confusion matrix
+	1. Data set overview
+		a. Exploring shape of data
+		b. Checking for class imbalance in data
+	2. Data cleaning and transformation
+		a. Renaming columns for ease of use + relevance
+		b. Identifying and dropping duplicates
+		c. Identifying and dropping NA values
+	3. Exploratory data analysis (EDA)
+		a. Descriptive statistical analysis (numerical variables)
+		b. Checking numerical var distribution (histograms) (checking for normality assumption needed in hypothesis testing)
+		c. Hypothesis testing
+			i. Difference in means test to verify validity of a "generalized conclusion" on impact of EstimatedSalary on churn rate
+			ii. Chi-square hypothesis test to verify validity of a "generalized conclusion" on impact of CountryofOrigin on churn rate
+		d. Feature engineering
+			i. One-hot encoding for to create dummy var for the categorical var
+			ii. Creating bins for the numerical variables to better interpretation of var by the model
+			iii. Standardizing Tenure var
+	4. Model building
+		a. Creating train and test data set
+		b. Fitting Logistic Regression, Random Forest 1, Random Forest 2, and LightGBM model (Random Forest 1 & 2 are both RF models with different hyperparameter values)
+	5. Evaluation and Model selection
+		a. Utilizing ROC-AUC, accuracy, precision, and recall metrics to evaluate models
+		b. Utilizing cross validation to calculate mean evaluation metric values for each model and subsequently determine best model
 
