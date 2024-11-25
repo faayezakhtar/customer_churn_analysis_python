@@ -27,6 +27,7 @@
 
 ### Report structure
 1. Data set overview
+ 
  a. Exploring shape of data
 	
  b. Checking for class imbalance in data
