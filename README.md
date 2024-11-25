@@ -26,13 +26,13 @@
 * Exited - Whether a customer has left the bank or not (response variable)
 
 ### Report structure
-1. Data set overview
+#### Data set overview
  
  a. Exploring shape of data
 	
  b. Checking for class imbalance in data
 
-2. Data cleaning and transformation
+#### Data cleaning and transformation
 	
  a. Renaming columns for ease of use + relevance
 	
@@ -40,7 +40,7 @@
 	
  c. Identifying and dropping NA values
 
-3. Exploratory data analysis (EDA)
+#### Exploratory data analysis (EDA)
 	
  a. Descriptive statistical analysis (numerical variables)
 	
@@ -60,13 +60,13 @@
 	
   iii. Standardizing Tenure var
 
-4. Model building
+#### Model building
 
  a. Creating train and test data set
 	
  b. Fitting Logistic Regression, Random Forest 1, Random Forest 2, and LightGBM model (Random Forest 1 & 2 are both RF models with different hyperparameter values)
 
-5. Evaluation and Model selection
+#### Evaluation and Model selection
 
  a. Utilizing ROC-AUC, accuracy, precision, and recall metrics to evaluate models
 
